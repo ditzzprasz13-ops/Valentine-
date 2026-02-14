@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You 💖</title>
+    <!-- Musik -->
+    <audio autoplay loop>
+      <source src="lagu2.mp3" type="audio/mpeg" />
+    </audio>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: black;
+        overflow: hidden;
+      }
+
+      iframe {
+        width: 100vw;
+        height: 100vh;
+        border: none;
+      }
+
+      .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 999;
+        padding: 10px 18px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(255, 105, 180, 0.8);
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+
+      .back-btn:hover {
+        transform: scale(1.05);
+        background: rgba(186, 85, 211, 0.9);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Tombol balik -->
+    <button class="back-btn" onclick="window.location.href = 'page2.html'">
+      ⬅ Back
+    </button>
+
+    <!-- Canva Embed -->
+    <iframe
+      src="https://www.canva.com/design/DAHBVa-4_Pg/vK-IXy-rhXnNQCrRi8DvFg/view?embed"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

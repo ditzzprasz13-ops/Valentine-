@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #ffb6f9, #c77dff);
+  font-family: "Arial", sans-serif;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #d32f2f;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#typing-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 15px pink;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+#typing-text::after {
+  content: "|";
+  animation: blink 0.7s infinite;
+  color: white;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.next-btn:hover {
+  background: deeppink;
+  transform: scale(1.05);
+}
+.top-text {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+
+  font-size: 2.2em;
+  font-weight: bold;
+  color: pink;
+
+  text-shadow: 0 0 15px hotpink;
+  z-index: 9999;
+}

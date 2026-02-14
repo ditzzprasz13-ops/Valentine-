@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9e3e3;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.header_text {
+  font-size: 3em;
+  color: #d32f2f;
+}
+
+.gif_container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.next-btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: #ff4d6d;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.next-btn:hover {
+  transform: scale(1.05);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #ffb6f9, #c77dff);
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+/* YEAAYYY text */
+.yay-text {
+  font-size: 2.2em;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px hotpink;
+}
+
+/* Happy Valentine berjalan */
+.header_text {
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 0 0 15px pink;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Animasi bergerak ke kanan */
+.moving-text {
+  display: inline-block;
+  animation: moveRight 3s infinite alternate ease-in-out;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
+
+/* GIF */
+.gif_container img {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* Button Next */
+.next-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: hotpink;
+  color: white;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background: deeppink;
+  transform: scale(1.05);
+}
+.yay-text {
+  font-size: 2.3em;
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 0 0 12px hotpink;
+  min-height: 40px; /* biar gak loncat pas ngetik */
+}
